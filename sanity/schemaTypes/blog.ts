@@ -23,7 +23,7 @@ export default {
             type: 'image',
             title: 'Title Image'
         }, {
-            name: 'smallDscription',
+            name: 'smallDescription',
             type: 'text',
             title: 'Small Description'
         },
