@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Pierluigi's Blog
+Welcome to Pierluigi's Blog! This is a personal blog website built using Next.js, Tailwind CSS, and Sanity.io. It showcases a collection of interesting and insightful articles on various topics.
 
-## Getting Started
+Table of Contents
+Live Website
+Technologies Used
+Features
+Getting Started
+Deployment
+Contributing
+License
+Live Website
+You can visit the live website at https://pierluigi-blog.vercel.app/.
 
-First, run the development server:
+Technologies Used
+Next.js: A React framework for building server-side rendered and statically generated websites.
+Tailwind CSS: A utility-first CSS framework for rapidly building custom user interfaces.
+Sanity.io: A headless CMS for structured content management.
+Features
+Responsive design that adapts to different screen sizes and devices.
+Seamless navigation and smooth page transitions.
+Dynamic content rendering using Sanity.io as the backend CMS.
+Optimized performance with server-side rendering and static site generation.
+Clean and modern UI design using Tailwind CSS.
+Getting Started
+To run this project locally, follow these steps:
 
-```bash
+Clone the repository:
+
+Copy code
+git clone git@github.com:PCapid3v/pierluigiBlog.git
+Navigate to the project directory:
+
+Copy code
+cd pierluigiBlog
+Install the dependencies:
+
+Copy code
+npm install
+Set up the environment variables:
+Create a .env.local file in the root directory.
+Add the following variables:
+
+Copy code
+NEXT_PUBLIC_SANITY_PROJECT_ID=your-sanity-project-id
+NEXT_PUBLIC_SANITY_DATASET=your-sanity-dataset
+SANITY_API_TOKEN=your-sanity-api-token
+Replace your-sanity-project-id, your-sanity-dataset, and your-sanity-api-token with your actual Sanity project details.
+Run the development server:
+
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and visit http://localhost:3000 to see the website.
+Deployment
+The website is deployed using Vercel. To deploy your own instance of the website, you can follow the Vercel deployment documentation: Vercel Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure to set up the necessary environment variables in your Vercel project settings.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Fork the repository.
+Create a new branch: git checkout -b my-new-feature.
+Make your changes and commit them: git commit -m 'Add some feature'.
+Push the branch: git push origin my-new-feature.
+Open a pull request.
+Please make sure to follow the code style and guidelines used in the project.
 
-## Learn More
+License
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+Thank you for visiting Pierluigi's Blog! If you have any questions or feedback, please don't hesitate to reach out.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy reading and exploring!
