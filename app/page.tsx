@@ -5,7 +5,7 @@ import { Image } from "next-sanity/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export const revalidate = 3600; // revalidate at most 1 hour
+export const revalidate = 30; // revalidate at most 1 hour
 
 
 async function getData() {
